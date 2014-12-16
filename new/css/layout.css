@@ -1,0 +1,305 @@
+.main-wrapper
+{
+    width: 100%;
+    height: 1800px;
+    background-color: blue;
+}
+.main-container
+{
+    width: 1069px;
+    min-height: 1800px;
+    margin: 0 auto;
+    background-image: url(../images/tracingTemplate1.png);
+}
+.header
+{
+    background: #594e4e;
+    width: 1009px;
+    height: 203px;
+    padding: 31px 30px 0px 30px;
+}
+.banner-container
+{
+    z-index: 1;
+    margin-top: -5px;
+    background: #a49191;
+    width: 1009px;
+    height: 191px;
+    padding: 17px 30px 13px 30px;
+}
+
+
+
+.banner
+{
+    position: relative;
+    width: 1009px;
+    height: 191px;
+    overflow: hidden;
+}
+.banner span img
+{
+    position: absolute;
+    width: 1009px;
+    height: 191px;
+    bottom: 0px;
+    left: 0px;
+}
+.banner span
+{
+    position: absolute;
+    display: block;
+    width: 965px;
+    height: 40px;
+    font-size: 38px;
+    background-image: url(../images/opacity.png);
+    bottom: 0px;
+    left: 0px;
+    padding: 15px 22px 15px 22px;
+    color: white;
+}
+.banner-navleft
+{
+    position: absolute;
+    top: 32px;
+    left: 8px;
+    height: 65px;
+    width: 65px;
+}
+.banner-navright
+{
+    position: absolute;
+    top: 32px;
+    left: 85px;
+    height: 65px;
+    width: 65px;
+}
+
+.main-content-container
+{
+    min-height: 602px;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-color: #b2b2b2;
+    padding: 24px 30px 32px 30px;
+}
+.main-content-top
+{
+    height: 205px;
+    width: 1008px;
+}
+.main-content-right
+{    
+    float: right;
+    height: 121px;
+    width: 280px;
+    
+}
+.main-content-left
+{
+    float: left;
+    margin-left: 23px;
+    width: 540px;
+}
+.main-content-left h1
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.main-content-left p
+{
+    font-size: 12px;
+    line-height: 16px;
+}
+.shopbutton
+{
+    float: left;
+    padding-bottom: 33px;
+}
+.shopbutton a
+{
+    font-size: 11px;
+    line-height: 22px;
+    padding: 0px 7px 0px 7px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1e6d7c;
+    border-radius: 5px;
+    background: #3b8896;
+    margin-top: 16px;
+}
+
+.shopallbutton
+{
+    float: left;
+    
+}
+.shopallbutton a
+{
+    font-size: 11px;
+    line-height: 22px;
+    padding: 0px 7px 0px 7px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1e6d7c;
+    border-radius: 5px;
+    background: #3b8896;
+}
+.seperater-line
+{
+    height: 10px;
+    width: 1008px;
+    background-image: url(../images/separatorline.png);
+}
+.seperater-linelower
+{
+    height: 10px;
+    width: 1008px;
+    background-image: url(../images/separatorline.png);
+   
+    margin-bottom: 32px;
+}
+
+.main-content-tabs ul
+{
+    height: 50px;
+}
+.main-content-tabs ul li
+{
+    float: left;
+    list-style-type: none;
+    width: 193px;
+    margin-left: 1px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: #3d8896;
+}
+.main-content-tabs ul li:hover
+{
+    margin-top: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.main-content-tabs-body
+{
+    min-height: 327px;
+    width: 1009px;
+}
+.main-content-tabs-body ul li
+{
+    /*should be modified pixel perfect banauna */
+    float: left;
+    list-style-type: none;
+    margin-left: 70px;
+    
+    padding: 0px 0px 32px 0px;
+    height: 295px;
+    width: 280px;
+}
+.main-content-tabs-body ul li:first-child {
+    margin-left: 0px;
+}
+
+.main-content-tabs-body ul li img
+{
+    height: 170px;
+    width: 280px;
+}
+.main-content-tabs-body ul li h2
+{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.main-content-tabs-body ul li p
+{
+    font-size: 13px;
+    line-height: 15px;
+    min-height: 70px;
+}
+.footer-top
+{
+    min-height: 212px;
+    padding: 40px 30px 40px 58px;
+    background-image: url(../images/crosslinebg.png);
+}
+.footer-top hr
+{
+    border-width: 2px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.footer-top ul
+{
+    float: left;
+}
+.footer-top ul li
+{
+    float: left;
+    margin-right: 24px;
+    list-style-type: none;
+    width: 221px;
+}
+.footer-top ul li img
+{
+    margin-top: 2px;
+    float: left;
+}
+.footer-top ul li span
+{
+    font-size: 11px;
+    float: right;
+    width: 180px;
+    line-height: 15px;
+    word-spacing: 5px;
+}
+.footer
+{
+}
+.footer-nav
+{
+    padding: 0px 30px 0px 58px;
+    height: 26px;
+}
+.footer-nav span
+{
+    line-height: 20px;
+    float: left;
+}
+.footer-nav ul
+{
+    float: left;
+}
+.footer-nav ul li
+{
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 10px;
+    padding-left: 13px;
+    float: left;
+    list-style-type: none;
+    background-image: url(../images/list-style.png);
+    background-repeat: no-repeat;
+}
+.footer-nav ul li a
+{
+    text-decoration: none;
+}
+.footer-info
+{
+    padding: 18px 30px 18px 69px;
+    min-height: 40px;
+    background-image: url(../images/footer-info-background.png);
+}
