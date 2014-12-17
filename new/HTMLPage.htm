@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <script language="JavaScript">
+        function quickSelect() {
+
+
+            var selected = document.frmLanguage.cblanguage[document.frmLanguage.cblanguage.selectedIndex].value;
+            alert(selected);
+
+            //        bnd = bnd.toUpperCase()
+            //        if (bnd == "OASIS") {
+            //            document.form1.songs[4].selected = "1"
+            //        }
+        }
+    </script>
+</head>
+<body>
+    <form name="frmLanguage">
+    <select name="cblanguage" size="1" onchange="quickSelect()">
+        <option value="Liquid">A</option>
+        <option value="World's Apart">B</option>
+        <option value="Ironic">C</option>
+        <option value="1979">D</option>
+        <option value="Wonderwall">E</option>
+        <option value="F">F</option>
+    </select>
+    </form>
+</body>
+</html>
